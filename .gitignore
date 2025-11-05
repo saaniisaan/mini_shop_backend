@@ -1,0 +1,89 @@
+# =========================
+# PYTHON & FASTAPI PROJECT
+# =========================
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+.env.*
+*.env
+
+# Build / dist directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Compiled C extensions
+*.so
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# FastAPI specific
+__pypackages__/
+instance/
+app/__pycache__/
+app/*.pyc
+app/routes/__pycache__/
+app/models/__pycache__/
+app/database/__pycache__/
+app/schemas/__pycache__/
+
+# Node / frontend (if accidentally added)
+node_modules/
+frontend/
+minishop-frontend/
+*.lock
+package-lock.json
+yarn.lock
+
+# Misc
+logs/
+tmp/
+temp/
